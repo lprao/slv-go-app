@@ -1,0 +1,6 @@
+language: golang-http
+fprocess: ./handler
+welcome_message: |
+  This function collects the moisture level reported by an
+  IoT sensor and commits it to a Permissioned Blockchain
+  using the Serverless Ledger Variables golang library
